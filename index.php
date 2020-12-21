@@ -83,6 +83,16 @@
 				<?php echo "lunghezza del paragrafo: " . strlen(str_replace($rest, $colorato_2 , $var));  ?>
 			</span>
 
+			<!-- vado a sostituire i punti e le virgole con la mia variabile *** -->
+			<h1>
+				<?php
+				for ($i=0; $i < strlen($var); $i++) {
+					$replace=str_replace([",", "."], $colorato_2 , $var);
+				}
+				echo $replace;
+			 	?>
+			</h1>
+
 			<h1>
 				<?php echo explode( ',', $var)[0]; ?>
 			</h1>
