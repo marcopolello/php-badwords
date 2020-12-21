@@ -7,13 +7,11 @@
 		<style>
       body {
         width: 1200px;
-        height: 2000px;
         background: blue;
         color: white;
         display: flex;
         align-items:flex-start;
         justify-content: center;
-        overflow: hidden;
 				padding: 0 100px;
       }
 			p{
